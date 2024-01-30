@@ -1,0 +1,41 @@
+@startuml
+
+
+class Animals {
+    +name: String
+    +age: int
+}
+
+class PackAnimals extends Animals {
+
+}
+
+class Horses extends PackAnimals {
+
+}
+
+class Camels extends PackAnimals {
+    
+}
+
+class Donkeys extends PackAnimals {
+    
+}
+
+class PetAninals extends Animals {
+
+}
+
+class Dogs extends PetAninals {
+
+}
+
+class Cats extends PetAninals {
+    
+}
+
+class Hamsters extends PetAninals {
+    
+}
+
+@enduml
