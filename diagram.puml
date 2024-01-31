@@ -22,19 +22,19 @@ class Donkeys extends PackAnimals {
     
 }
 
-class PetAninals extends Animals {
+class PetAnimals extends Animals {
 
 }
 
-class Dogs extends PetAninals {
+class Dogs extends PetAnimals {
 
 }
 
-class Cats extends PetAninals {
+class Cats extends PetAnimals {
     
 }
 
-class Hamsters extends PetAninals {
+class Hamsters extends PetAnimals {
     
 }
 
